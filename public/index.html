@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylesheet/animation.css">
+  <link rel="stylesheet" href="stylesheet/main.css">
+  <title>HIS-GEO</title>
+</head>
+<body dir="rtl">
+  <img src="img/bg-001.JPG" id="bg"></img>
+  <header>
+    <span id="scr">
+      0
+    </span>
+  </header>
+
+  <!-- NOTE: -stage 01- -->
+
+  <menu id="stage-01">
+    <h1>HIS-GEO</h1>
+    <ul>
+      <li id="main_li_1"><button class="func_btn" id="mb_1" onclick="li_1Func()">ابدأ</button></li>
+      <li id="main_li_2"><button class="func_btn" id="mb_2" onclick="li_2Func()">الاعدادات</button></li>
+      <li id="main_li_3"><button class="func_btn" id="mb_3" onclick="li_3Func()">حول اللعبة</button></li>
+      <li id="main_li_4"><button class="func_btn" id="mb_4" onclick="li_4Func()">اتصل بنا</button></li>
+      <li id="main_li_5"><button class="func_btn" id="mb_5" onclick="gameEnd()">خروج</button></li>
+    </ul>
+  </menu>
+
+  <nav id="stage-01-01">
+    <h1>كيف تريد اللعب</h1>
+    <ul>
+      <li id="sub_li_1"><button class="func_btn" id="sb_1" onclick="playStarts()">فقط العب</button></li>
+      <li id="sub_li_2"><button class="func_btn" id="sb_2" onclick="sli_1Func()">العب حسب الكمية</button></li>
+      <li id="sub_li_3"><button class="func_btn" id="sb_3" onclick="sli_2Func()">العب مع المؤقت</button></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="Q">
+      <span>Lorem ipsum dolor sit amet.</span>
+    </section>
+    <section id="A">
+      <div class="ans" id="a_1"><b>(1)   </b><span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span></div>
+      <div class="ans" id="a_2"><b>(2)   </b><span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span></div>
+      <div class="ans" id="a_3"><b>(3)   </b><span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span></div>
+      <div class="ans" id="a_4"><b>(4)   </b><span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span></div>
+    </section>
+  </main>
+  <footer dir="ltr">&copy copyright MedSharl-VC</footer>
+
+  <!-- NOTE: Assets Elements -->
+  <div id="alertBack">
+  <div id="alert">
+    <h1 id="alert-head">
+      Title
+    </h1>
+    <p id="alert-content">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, totam.
+    </p>
+  </div>
+  </div>
+  <script src="data/quiz.js" charset="utf-8"></script>
+  <script src="scripts/main.js" charset="utf-8"></script>
+</body>
+</html>

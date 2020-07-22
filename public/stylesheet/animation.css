@@ -1,0 +1,39 @@
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeOut {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+@keyframes zoomIn {
+  from {transform: scale(0);}
+  to {transform: scale(1);}
+}
+
+@keyframes zoomOut {
+  from {transform: scale(1);}
+  to {transform: scale(0);}
+}
+
+@keyframes zoomEasy {
+  from {transform: scale(1);}
+  to {transform: scale(1.1);}
+}
+
+@keyframes rotateLeft {
+  from {transform: rotate(0deg, 0deg);}
+  to {transform: rotate(180deg, 0deg);}
+}
+
+@keyframes rotateRight {
+  from {transform: rotate();}
+  to {transform: rotate();}
+}
+
+@keyframes flip {
+  from {}
+  to {}
+}

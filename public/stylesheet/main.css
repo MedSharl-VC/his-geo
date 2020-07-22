@@ -1,0 +1,239 @@
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  /* cursor: none; */
+  overflow: hidden;
+  z-index: 0;
+}
+
+body {
+  /*font-family: sans-serif;
+  background-color: #5f4f6a;*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#bg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -10;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(150, 255, 200, .85);
+  z-index: 5;
+}
+
+header #scr {
+  top: 4px;
+  right: 2px;
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  background-color: #ff3;
+  padding: 10px 0;
+  border-radius: 15px;
+  text-align: center;
+}
+
+main {
+  display: none;
+}
+
+main #Q {
+  background-color: #fff;
+  width: 60%;
+  margin-top: 30px;
+  margin: 25px auto;
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 35px;
+  box-shadow: 0px 1px #444;
+}
+
+main #A {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 60%;
+  margin: 25px auto;
+  text-align: center;
+  padding: 25px;
+  border-radius: 5px;
+  font-size: 30px;
+  box-shadow: 0px 1px #444;
+}
+
+main #A .ans {
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px auto;
+  background-color: #efefef;
+  box-shadow: 0px 1px #444;
+}
+
+main #A .not_ans {
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px auto;
+  background-color: #f00;
+  box-shadow: 0px 1px #444;
+}
+
+main #A .is_ans {
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px auto;
+  background-color: #0f0;
+  box-shadow: 0px 1px #444;
+}
+
+main #A .ans:hover {
+  background-color: #9999ff;
+}
+
+main #A .ans:active {
+  background-color: #0ff;
+}
+
+main #A b {
+  position: absolute;
+  right: 25%;
+}
+
+menu, nav {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin-top: 0;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  border-radius: 0px 0px 15px 15px;
+  z-index: 1;
+}
+
+menu h1, nav h1 {
+  font-size: 60px;
+  padding: 15px;
+  color: #fff;
+}
+
+menu ul li, nav ul li {
+  font-family:
+  list-style: none;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+#mb_1:hover {
+  background-color: #00b867;
+  color: #fff;
+}
+
+#mb_2:hover {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+#mb_3:hover {
+  background-color: brown;
+  color: #fff;
+}
+
+#mb_4:hover {
+  background-color: purple;
+  color: #fff;
+}
+
+#mb_5:hover {
+  background-color: #f44336;
+  color: #fff;
+}
+
+#sb_1:hover {
+  background-color: green;
+  color: #fff;
+}
+
+#sb_2:hover {
+  background-color: blue;
+  color: #fff;
+}
+
+#sb_3:hover {
+  background-color: red;
+  color: #fff;
+}
+
+.func_btn {
+  background-color: #ddd;
+  border-radius: 5px;
+  width: 45vw;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.func_btn:focus {
+  outline: 0;
+}
+
+nav {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+#alertBack {
+  display: none;
+  z-index: 7;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 95%;
+  padding-top: 10%;
+}
+
+#alert {
+  margin: auto;
+  width: 40%;
+  height: 50%;
+  padding: 10px;
+  background: #fefefe;
+  border-radius: 15px;
+}
+
+#alert-head {
+  text-align: center;
+}
+
+#alert-content {
+  padding: 20px;
+}
+
+/* animation */
+
+.animeFadeOut {
+  animation: fadeOut 1s;
+}
+
+.animeFadeIn {
+  animation: fadeIn 1s;
+}
+
+.animeZoomIn {
+  animation: zoomIn .5s;
+}
+
+.animeZoomOut {
+  animation: zoomOut .5s;
+}
